@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "prettier": "prettier --write README.md"
+  },
+  "devDependencies": {
+    "prettier": "^1.9.2"
+  }
+}
