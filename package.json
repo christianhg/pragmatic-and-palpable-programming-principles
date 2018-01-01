@@ -1,4 +1,7 @@
 {
+  "name": "pppp",
+  "private": true,
+  "version": "0.1.0",
   "scripts": {
     "prettier": "prettier --write README.md"
   },
