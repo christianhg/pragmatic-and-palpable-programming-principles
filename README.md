@@ -12,8 +12,14 @@ Each entry deserves their own chapter in an important book<sup><a href="#fn3">[3
 * **Embrace constraints.**
   <br>The less features an API offers to its consumer, the easier it is to learn and work with. A function with a single parameter is simpler to use than one with three.
 
-* **Strive for declarative code.**
+* **Be declarative.**
   <br>Knowing **how** a piece of code works is often not an important factor. On the other hand, knowing **what** a piece of code does is.
+
+* **Skepticize conditionals.**
+  <br>If the cost of every conditional is assessed before it is added, the result will be a simpler codebase with fewer branches and breeding grounds for bugs.
+
+* **Favor functions.**
+  <br>Always choose the least powerful abstraction that can get the job done.
 
 * ...
 
