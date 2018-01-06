@@ -6,6 +6,15 @@
 
 Each entry deserves their own chapter in an important book<sup><a href="#fn3">[3]</a></sup>, but for now an annotated list must do:
 
+* **Economize code.**
+  <br>Writing code is often easier than removing it again. Coding in the blind or copy/pasting from documentation or other learning material can be a powerful way to get going, but at the same time it can introduce excessive amounts of code. Every time you've gotten a feature or function to work, experiment with taking it apart again by removing code that might be unnecessary. Ensure that every single line of code matters and that you undestand why.
+
+* **Communicate clearly.**
+  <br>Spend those extra five minutes to craft an even better commit message. Take pride in doing spellcheck and ensuring a consistent (and short) line length to highten the legibility. Commits are the primary way programmers communicate: treat it as such. Use the commit summary mainly to describe **why** the change was needed. This ensures that programmers - you or others, now or in the future - are in the know.
+
+* **Be honest.**
+  <br>If you don't know why a change is needed, why a bug went away or how a feature of mashed together spaghetti code came to life, do everything you can to find out. If you fail to reach an understanding, throw the work away.
+
 * **Write tests.**
   <br>Tests can help you design your program, ensure that it works, and protect it from getting broken later.
 
